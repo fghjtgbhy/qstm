@@ -1,4 +1,2 @@
-.\.vscode
-.\certs
-/.vscode
-/certs
+.vscode/
+certs/
