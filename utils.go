@@ -5,9 +5,11 @@ import (
 	"os"
 	"strings"
 	"time"
+	"fmt"
 )
 
 func LogError(log string) (err string) {
+	fmt.Println(log)
 	logLines := strings.Split(log, "\n")
 	for i := len(logLines) - 2; i > 0; i-- {
 		lineArray := strings.Fields(logLines[i])
